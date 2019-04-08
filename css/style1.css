@@ -1,0 +1,62 @@
+.large-img{
+    background-image: url("../images/background-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width:100%;
+    height: 700px;
+    position:relative;
+}
+
+.tint {
+    background-color:rgba(255, 255, 255, 0.25);
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+}
+
+.tint > h1{
+    position: absolute;
+    top: 15%;
+    left: 45%;
+    font-size: 90px;
+    color: rgb(53, 51, 36);
+}
+
+.head-1 {
+    width: 100%;
+}
+
+.product {
+    width: 100%;
+}
+
+.move-down {
+    position: absolute;
+    top: 15%;
+}
+
+.paralax-img{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+    background-image: url("../images/club.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#text-para{
+    position: absolute;
+    left: 45%;
+    margin-top: 15px;
+}
+
+#scroll-image{
+    margin-left: 43%;
+    max-width: 200px;
+    transition: transform 2s;
+}
+
+
